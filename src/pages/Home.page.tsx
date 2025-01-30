@@ -9,7 +9,7 @@ export function HomePage() {
       <Divider my='xl'/>
       <FeaturedItems title='Sale Items'/>
       <Divider my='xl'/>
-      <FeaturedItems title='Top Sellers'/>
+      <FeaturedItems title='Top Sellers '/>
     </Container>
   );
 }
