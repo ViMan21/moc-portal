@@ -8,15 +8,17 @@ import { AboutUsPage } from './pages/AboutUs.page';
 import { FandIPage } from './pages/f_i.page';
 import { LoginPage } from './pages/Login.page';
 import { Header } from './components/Header/Header';
-import { WithHeaderAndFooter } from './utils/WithHeaderAndFooter';
 import { useMantineColorScheme } from '@mantine/core';
+import { Footer } from './components/Footer/Footer';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <>
-    <Header />
-    <HomePage />
+    element: 
+    <>
+      <Header />
+      <HomePage />
+      <Footer />
     </>
   },
   {
@@ -25,6 +27,7 @@ const router = createBrowserRouter([
     <>
       <Header />
       <CleaningSuppliesPage />
+      <Footer />
     </>
   },
   {
@@ -37,6 +40,7 @@ const router = createBrowserRouter([
     <>
       <Header />
       <DetailersDepotPage />
+      <Footer />
     </>,
   },
   {
@@ -45,6 +49,7 @@ const router = createBrowserRouter([
     <>
       <Header />
       <FandIPage />
+      <Footer />
     </>,
   },
   {
@@ -53,6 +58,7 @@ const router = createBrowserRouter([
     <>
       <Header />
       <PartsPage />
+      <Footer />
     </>,
   },
   {
@@ -61,6 +67,7 @@ const router = createBrowserRouter([
     <>
       <Header />
       <ToolsPage />
+      <Footer />
     </>,
   },
   {
@@ -69,6 +76,7 @@ const router = createBrowserRouter([
     <>
       <Header />
       <AboutUsPage />
+      <Footer />
     </>,
   },
 ]);
