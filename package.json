@@ -20,8 +20,9 @@
     "storybook:build": "storybook build"
   },
   "dependencies": {
-    "@mantine/core": "7.16.1",
-    "@mantine/hooks": "7.16.1",
+    "@mantine/carousel": "^7.16.2",
+    "@mantine/core": "^7.16.2",
+    "@mantine/hooks": "^7.16.2",
     "@tabler/icons-react": "^3.29.0",
     "firebase": "^11.2.0",
     "react": "^19.0.0",
