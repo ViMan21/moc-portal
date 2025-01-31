@@ -38,7 +38,7 @@ const user = {
 
 const navigation = [
   { link: '/parts', label: 'PARTS'}, //, icon: IconCar },
-  { link: 'https://g2stobeq.ca/digital-catalogue/', label: 'TOOLS'}, //, icon: IconTool},
+  { link: '/tools', label: 'TOOLS'}, //, icon: IconTool},
   { link: '/detailers', label: 'DETAILER\'S DEPOT'}, //, icon: IconSpray},
   { link: '/cleaning', label: 'CLEANING SUPPLIES'}, //, icon: IconWashHand},
   { link: '/f_and_i', label: 'F & I DEPT.'}, //, icon: IconBrandCashapp},
