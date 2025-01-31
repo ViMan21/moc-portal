@@ -4,7 +4,6 @@ import { Divider, Container } from "@mantine/core";
 
 export function DetailersDepotPage() {
     return (
-      
           <Container>
             <FeaturedItems title='Monthly Special'/>
             <Divider my='xl'/>
