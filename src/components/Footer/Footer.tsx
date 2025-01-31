@@ -18,7 +18,7 @@ export function Footer() {
             </Group>
             <Group>
                 <IconMail />
-                <Text>Order@MocProducts.ca</Text>
+                <Text>order@mocproducts.ca</Text>
             </Group>
         </Stack>
         <div className={classes.logo}>

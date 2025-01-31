@@ -11,7 +11,8 @@ import {
   IconWashHand,
   IconTool,
   IconCar,
-  IconContract
+  IconContract,
+  IconShoppingCart
 } from '@tabler/icons-react';
 import cx from 'clsx';
 import {
@@ -94,7 +95,12 @@ export function Header() {
                 </Group>
               </UnstyledButton>
             </Menu.Target>
-            <Menu.Dropdown>
+            <Menu.Dropdown> 
+              <Menu.Item
+                leftSection={<IconShoppingCart size={16} color={theme.colors.green[6]} stroke={1.5} />}
+              >
+                Cart
+              </Menu.Item>
               <Menu.Item
                 leftSection={<IconStar size={16} color={theme.colors.yellow[6]} stroke={1.5} />}
               >
@@ -116,6 +122,7 @@ export function Header() {
               <Menu.Divider />
               <Menu.Item leftSection={<IconLogout size={16} stroke={1.5} />}>Logout</Menu.Item>
             </Menu.Dropdown>
+            <IconShoppingCart />
           </Menu>
         </Group>
       </Container>

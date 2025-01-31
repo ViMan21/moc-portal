@@ -7,7 +7,7 @@ export function HomePage() {
     <Container>
       <FeaturedItems title='New Products'/>
       <Divider my='xl'/>
-      <FeaturedItems title='Sale Items'/>
+      <FeaturedItems title='Monthly Specials'/>
       <Divider my='xl'/>
       <FeaturedItems title='Top Sellers '/>
     </Container>
